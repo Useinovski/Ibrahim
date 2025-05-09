@@ -1,0 +1,109 @@
+
+/*Might not need the google import here because its in the html file*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&family=Jersey+15&display=swap'); 
+
+@import "tailwindcss";
+:root {
+  --forest-dark: #1b2e21;
+  --forest-green: #2e4630;
+  --moss: #5e7b52;
+  --fog-gray: #d9d9d9;
+  --mist-white: #f1f3f2;
+
+  --evergreen: #2f4f4f;
+  --moss-green: #6b8e23;
+  --mist-gray: #d9d9d6;
+  --cloud-white: #f5f5f4;
+  --fog-blue: #a9b4ab;
+  --pine-needle: #3b5f41;
+  --lichen: #bcc5a3;
+  --rain-slate: #6c757d;
+  --canopy-shadow: #374a3d;
+  --dew-silver: #c9ccca;
+}
+qd {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+qr {
+  font-family: "Jersey 15", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+::selection {
+  background-color: #6c757d; /* Gold Highlight */
+  color: #bcc5a3; /* Text Color */
+}
+/*
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+*/
