@@ -2,14 +2,15 @@ import AboutCarousel from "./AboutCarousel";
 
 const About = () => {
 
-    const profileImages = [ "/iconLogo1.png", "/iconLogo1.png", "/iconLogo1.png" ];
+    const profileImages = ["./iconLogo1.png", "./iconLogo2.png", "./iconLogo3.png"];
 
     return (
         <qd className="text-[var(--mist-white)]">
 
- 
+
             <div className=" gap-8 p-8 bg-[color:var(--mist-white)] text-[color:var(--forest-dark)] rounded-xs shadow-lg">
                 <div className="flex items-center justify-center">
+
                     <AboutCarousel images={profileImages} rounded="rounded-sm" interval={2000} />
                     <img src="./iconLogo3.png" alt="Profile" className="rounded-full w-48 h-48 object-cover shadow-md" />
                 </div>
@@ -21,7 +22,7 @@ const About = () => {
                 <qd className="pl-0">
                     <h1 className="mb-4 text-[var(--moss)]">About</h1>
                     <p>
-                    Ibrahim designs software. He thrives in complex and ambiguous problem spaces focused on delivering, maintaining, and innovating new technologies. He studied Computer Science at Lewis University while pursuing filmmaking—a chapter he will cherish for the rest of his life.
+                        Ibrahim designs software. He thrives in complex and ambiguous problem spaces focused on delivering, maintaining, and innovating new technologies. He studied Computer Science at Lewis University while pursuing filmmaking—a chapter he will cherish for the rest of his life.
                     </p>
                 </qd>
 
@@ -45,6 +46,8 @@ const About = () => {
                     </div>
                 </qd>
             </div>
+
+            
 
 
 

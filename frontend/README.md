@@ -10,3 +10,16 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+#1 Make your edits in the code
+
+run these comands:
+
+git add . # Stages all edited files for commit
+
+git commit -m "Your message on what you did" # Saves the changes with a message
+
+git push origin main # Pushes your changes to the remote repository
+
+npm run deploy # Builds and deploys your changes to GitHub Pages
