@@ -1,25 +1,21 @@
 import AboutCarousel from "./AboutCarousel";
-/*
-import iconLogo1 from '../assets/iconLogo1.png';
-import iconLogo2 from '../assets/iconLogo2.png';
-import iconLogo3 from '../assets/iconLogo3.png';
-*/
+
 const About = () => {
 
-    /*const profileImages = [ iconLogo1, iconLogo2, iconLogo3 ];*/
+    const profileImages = [ "/iconLogo1.png", "/iconLogo1.png", "/iconLogo1.png" ];
 
     return (
         <qd className="text-[var(--mist-white)]">
 
-{/* 
+ 
             <div className=" gap-8 p-8 bg-[color:var(--mist-white)] text-[color:var(--forest-dark)] rounded-xs shadow-lg">
                 <div className="flex items-center justify-center">
                     <AboutCarousel images={profileImages} rounded="rounded-sm" interval={2000} />
-                    {/*<img src="/iconLogo3.png" alt="Profile" className="rounded-full w-48 h-48 object-cover shadow-md" />*
+                    <img src="./iconLogo3.png" alt="Profile" className="rounded-full w-48 h-48 object-cover shadow-md" />
                 </div>
 
             </div>
-*/}
+
             <div id="main div" className="grid grid-cols-1 lg:grid-cols-3 gap-8 font-[input-mono] pt-4">
                 {/* About Section (Always Left-Aligned) */}
                 <qd className="pl-0">
