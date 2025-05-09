@@ -10,9 +10,7 @@ const About = () => {
 
             <div className=" gap-8 p-8 bg-[color:var(--mist-white)] text-[color:var(--forest-dark)] rounded-xs shadow-lg">
                 <div className="flex items-center justify-center">
-
                     <AboutCarousel images={profileImages} rounded="rounded-sm" interval={2000} />
-                    <img src="./iconLogo3.png" alt="Profile" className="rounded-full w-48 h-48 object-cover shadow-md" />
                 </div>
 
             </div>
