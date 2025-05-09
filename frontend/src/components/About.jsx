@@ -1,11 +1,12 @@
 import AboutCarousel from "./AboutCarousel";
-import iconLogo1 from "../assets/iconLogo1.png";
-import iconLogo2 from "../assets/iconLogo2.png";
-import iconLogo3 from "../assets/iconLogo3.png";
 
 const About = () => {
 
-    const profileImages = [iconLogo1, iconLogo2, iconLogo3];
+    const profileImages = [
+        "/iconLogo1.png", 
+        "/iconLogo2.png", 
+        "/iconLogo3.png"
+      ];
 
     return (
         <qd className="text-[var(--mist-white)]">
