@@ -10,7 +10,7 @@ const Projects = () => {
             <h2 className="text-2xl font-bold mb-6">My Projects</h2>
             <div className="bg-white border border-gray-200 p-4 mb-6 rounded-xs shadow hover:bg-[color:var(--fog-gray)] transition">
                 <h3 className="font-semibold text-lg mb-1 text-[var(--moss-green)]">Mozart’s Traffic School</h3>
-                <p className="text-sm italic mb-2 text-[var(--forest-dark)]">Contracted Project &middot; Feb 2024 - Present</p>
+                <p className="text-sm italic mb-2 text-[var(--forest-dark)]">Contracted Project &middot; Feb 2025 - Present</p>
                 <p className="text-sm text-[var(--forest-green)]">
                     Contracted to convert a WordPress website into a custom web application. Used React with Tailwind CSS to design a new frontend UI. Developed the backend using Node.js and Express.js to manage user-based changes, middleware, and API calls. Integrated a protected admin dashboard for updating pricing, managing clients, and customizing site features more effectively.
                 </p>
