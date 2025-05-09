@@ -3,9 +3,9 @@ import AboutCarousel from "./AboutCarousel";
 const About = () => {
 
     const profileImages = [
-        "./iconLogo1.png", 
-        "./iconLogo2.png", 
-        "./iconLogo3.png"
+        "iconLogo1.png", 
+        "iconLogo2.png", 
+        "iconLogo3.png"
         
       ];
 
